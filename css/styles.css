@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+    color: #777;
+
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	
+}
+
+.nav ul {
+	margin:0;
+
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: .5em;
+	color: white;
+	text-decoration: none;
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, .3);
+
+}
+
+.main-nav li {
+    padding:0 5%;
+}
+
+.main-header {
+	background-image: url('../img/urban.jpg');
+	background-size: cover;
+	padding-bottom: 10px;
+}
+
+
+
+.store-name {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+	font-family: 'Metal Mania' , cursive;
+	font-weight: normal;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+
+.store-name-large {
+    font-size: 9em;
+    color: white !important;
+}
+
+.content-section {
+	margin: 1em;
+	color: red;
+	background-color: white;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 100%;
+	padding: 0 1.5em;
+}
+
+p {
+	color: red;
+}
+
+.section-header {
+	font-family: "Metal Mania", cursive;
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	font-size: 2.5em;
+	color: red;
+}
+
+.about-store-image {
+	float: left;
+	margin:  15px;
+	border-radius: 50%;
+
+}
+
+.main-footer {
+	background-color: black;
+	color: white;
+	padding: .25em 0;
+}
+
+.main-footer-container {
+	display: flex;
+	align-items: center;
+
+}
+
+.main-footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+
+.footer-nav li {
+	padding: 0 .5em;
+}
+
+.footer-nav img {
+	width: 30px;
+	height: 30px;
+}
+
+.btn {
+	text-align: center;
+	vertical-align: middle;
+	padding: .67em;
+	cursor: pointer;
+}
+
+.btn-header {
+	margin: 2em .5em .5em 15%;
+	color: black;
+	border: 2px solid black;
+	background-color: red;
+	border-radius: 0;
+	font-size: 1.5em;
+	font-weight: lighter;
+	padding-left: 2em;
+	padding-left: right: 2em;
+	margin-left: 362px;
+    margin-bottom: 21px;
+}
+
+.btn-header:hover {
+	background-color: black;
+	color: red;
+}
+
+.btn-play {
+	margin: 0 auto;
+	display : block;
+	color: black;
+	font-size: 4em;
+	border-radius: 100%;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	margin-left: 50%;
+    margin-top: -106px;
+}
+
+.store-row {
+	border-bottom: 1px solid red;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.store-row:last-child {
+	border-bottom: none;
+}
+
+.store-item {
+	padding-right: .5em;
+    display: inline-block;
+
+}
+
+.store-date {
+	color: red;
+	font-weight: bold;
+	width: 11%;
+}
+
+.store-city {
+	width: 24%;
+	color: red;
+}
+
+.store-location {
+	width: 42%;
+	color: red;
+}
+
+.store-btn {
+   max-width: 19%;
+   color: red;
+}
+
+.btn-primary {
+	color: black !important;
+	background-color: red !important;
+	border: none;
+	border-radius: .3em;
+	font-weight: bold;
+}
+
+.btn-primary:hover {
+	background-color: red;
+	color: black;
+}
+
+.shop-item {
+	margin: 30px;
+}
+
+.shop-item-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color:red;
+	margin-bottom: 15px;
+}
+
+.shop-item-image {
+	height: 250px;
+	width: 250px;
+}
+
+.shop-item-details {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+}
+
+.shop-items {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.cart-header {
+	font-weight: bold;
+	font-size: 1.2em;
+	color:red;
+}
+
+.cart-column {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid red;
+	margin-right: 1.5em;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+
+.cart-row {
+	display: flex;
+
+}
+
+.cart-item {
+  width: 35%;
+}
+
+.cart-price{
+  width: 20%;
+  font-size: 1.2em;
+  color: red;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+	color: red;
+	margin-left: .5em;
+	font-size: 1.2em
+}
+
+.cart-item-image {
+	width: 75px;
+	height: auto;
+	border-radius: 10px;
+}
+
+
+.btn-danger {
+	color: white;
+	background: red;
+	border: none;
+	border-top-left-radius: .3em;
+	font-weight: bold;
+}
+
+.btn-danger {
+	background-color: black;
+	color: red;
+}
+
+.cart-quantity-input {
+	height: 34px;
+	width: 50px;
+	border-radius: 5px;
+	border: 1px solid red;
+	background-color: #eee;
+	color: #333;
+	padding: 0;
+	text-align: center;
+	font-size: 1.2em;
+	margin-right: 25px;
+}
+
+
+
+span.cart-quantity.cart-header.cart-column.right {
+    margin-left: 87%;
+    margin-bottom: -10px;
+    font-size: 18px;
+}
+
+.cart-row:last-child {
+	border-bottom: 1px solid red;
+}
+
+.cart-row:last-child .cart-column {
+	border: none;
+}
+
+.cart-total {
+	text-align: end;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.cart-total-title {
+	font-weight: bold;
+	font-size: 1.5em;
+	color: red;
+	margin-top: 20px;
+}
+
+.cart-total-price {
+	color: red;
+	font-size: 1.1em;
+}
+
+.btn-purchase {
+	display: block;
+	margin: 40px auto 40px auto;
+	font-size: 1.5em;
+}
+
+
+
+
